@@ -1,9 +1,11 @@
-import Image from "next/image";
-import { Geist, Geist_Mono } from "next/font/google";
+// import Image from "next/image";
 
 const Home: React.FC = () => {
   return(
-    <p>Welcome to my page</p>
+    <div>
+      <p>Welcome to my page</p>
+
+    </div>
   );
 }
 
