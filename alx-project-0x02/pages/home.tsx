@@ -16,8 +16,8 @@ const Home: React.FC = () => {
 
  return(
   <div>
-   <h1>Home Page</h1>
    <Header />
+   <h1>Home Page</h1>
    <Card title='Tayos Villa' content='Two Bedroom Luxury apartment' />
    <Card title='Depaytez Villa' content='Eight Bedroom Luxury apartment' />
    <div>
