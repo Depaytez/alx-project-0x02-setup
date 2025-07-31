@@ -3,6 +3,7 @@ import Card from '@/components/common/Card';
 import PostModal from '@/components/common/PostModal';
 import { useState } from 'react';
 import { PostData } from '@/interfaces';
+import Header from '@/components/layout/Header';
 
 const Home: React.FC = () => {
  const [posts, updatePosts] = useState<PostData[]>([]); // Declare a state variable
@@ -16,6 +17,7 @@ const Home: React.FC = () => {
  return(
   <div>
    <h1>Home Page</h1>
+   <Header />
    <Card title='Tayos Villa' content='Two Bedroom Luxury apartment' />
    <Card title='Depaytez Villa' content='Eight Bedroom Luxury apartment' />
    <div>
