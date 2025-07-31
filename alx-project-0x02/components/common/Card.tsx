@@ -4,8 +4,8 @@ import { type CardProps } from '@/interfaces';
 const Card: React.FC<CardProps> = ({title, content}) => {
  return(
   <div className="card_class"> 
-   {title}
-   {content}
+   <h2>{title}</h2>
+   <p>{content}</p>
   </div>
  )
 }
