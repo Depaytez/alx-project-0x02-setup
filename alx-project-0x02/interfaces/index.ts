@@ -37,3 +37,13 @@ export interface PostCardProps {
  content: string;
  userId: number;
 }
+
+export interface UserCardProps {
+ id: number;
+ name: string;
+ email: string;
+ address:{
+  street: string;
+  city: string;
+ }; 
+}

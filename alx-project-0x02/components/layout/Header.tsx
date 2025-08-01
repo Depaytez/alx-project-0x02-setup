@@ -17,6 +17,9 @@ const Header: React.FC = () => {
     <Link href='/posts'>
      <span className='cursor-pointer hover:text-blue-300 transition-colors duration-200'> Posts </span>
     </Link>
+    <Link href='/users'>
+     <span className='cursor-pointer hover:text-blue-300 transition-colors duration-200'> Users </span>
+    </Link>
    </nav>
    {/* <p>Button page</p> */}
   </div>
